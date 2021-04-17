@@ -45,7 +45,7 @@ function App() {
           value={todoInput}
           onChange={(e) => setTodoInput(e.target.value)}
         ></input>
-        <Button disabled={todoInput < 1} variant="contained" onClick={addTodo}>
+        <Button type="submit" disabled={todoInput < 1} variant="contained" onClick={addTodo}>
           Add
         </Button>
       </form>
