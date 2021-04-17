@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.create-task Button {
+  margin: 1rem;
+}
+
+.task-list {
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+}
+
+.user-input {
+  height: 2rem;
+}
